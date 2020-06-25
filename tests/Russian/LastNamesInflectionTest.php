@@ -60,6 +60,7 @@ class LastNamesInflectionTest extends \PHPUnit_Framework_TestCase
 
             ['Смирнова', NamesInflection::FEMALE, 'Смирновой', 'Смирновой', 'Смирнову', 'Смирновой', 'Смирновой'],
             ['Кромская', NamesInflection::FEMALE, 'Кромской', 'Кромской', 'Кромскую', 'Кромской', 'Кромской'],
+            ['Завгородняя', NamesInflection::FEMALE, 'Завгородней', 'Завгородней', 'Завгороднюю', 'Завгородней', 'Завгородней'],
             ['Закипная', NamesInflection::FEMALE, 'Закипной', 'Закипной', 'Закипную', 'Закипной', 'Закипной'],
             ['Зима', NamesInflection::FEMALE, 'Зимы', 'Зиме', 'Зиму', 'Зимой', 'Зиме'],
             ['Зоя', NamesInflection::FEMALE, 'Зои', 'Зое', 'Зою', 'Зоей', 'Зое'],
